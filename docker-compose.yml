@@ -5,9 +5,6 @@ services:
     build: ./mysql
     environment:
       MYSQL_ROOT_PASSWORD: root
-      # MYSQL_DATABASE: test_db
-      # MYSQL_USER: user
-      # MYSQL_PASSWORD: pass
     ports:
       - "9906:3306"
     volumes:
