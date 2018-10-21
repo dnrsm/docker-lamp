@@ -15,6 +15,7 @@ services:
       - '8010:80'
     volumes:
       - ./app:/var/www/html
+      - ./php/php.ini:/usr/local/etc/php/php.ini
     depends_on:
       - mysql
   phpmyadmin:

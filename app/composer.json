@@ -1,0 +1,13 @@
+{
+    "require-dev": {
+        "phpunit/phpunit": "^7.4"
+    },
+    "scripts": {
+        "test": [
+            "vendor/bin/phpunit --testsuite hello test"
+        ],
+        "coverage": [
+            "vendor/bin/phpunit --coverage-html coverage"
+        ]
+    }
+}
