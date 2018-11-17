@@ -1,0 +1,4 @@
+Options +Includes
+AddType application/x-httpd-php .htm .html
+AddHandler server-parsed .html .htm
+AddOutputFilter INCLUDES .html .htm
